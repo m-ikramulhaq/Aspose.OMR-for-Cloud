@@ -1,0 +1,4614 @@
+{
+	"Name": "Template",
+	"Version": "0.4",
+	"Pages": [
+		{
+			"Width": 1700,
+			"Height": 2200,
+			"Elements": [
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question1",
+					"Width": 266,
+					"Height": 40,
+					"Top": 641,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 641,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 641,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 641,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 641,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 641,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question2",
+					"Width": 266,
+					"Height": 40,
+					"Top": 697,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 697,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 697,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 697,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 697,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 697,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question3",
+					"Width": 266,
+					"Height": 40,
+					"Top": 749,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 749,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 749,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 749,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 749,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 749,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question4",
+					"Width": 266,
+					"Height": 40,
+					"Top": 805,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 805,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 805,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 805,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 805,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 805,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question5",
+					"Width": 266,
+					"Height": 40,
+					"Top": 858,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 858,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 858,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 858,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 858,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 858,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question6",
+					"Width": 266,
+					"Height": 40,
+					"Top": 913,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 913,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 913,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 913,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 913,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 913,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question7",
+					"Width": 266,
+					"Height": 40,
+					"Top": 966,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 966,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 966,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 966,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 966,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 966,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question8",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1022,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1022,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1022,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1022,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1022,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1022,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question9",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1075,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1075,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1075,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1075,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1075,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1075,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question10",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1131,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1131,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1131,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1131,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1131,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1131,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question11",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1184,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1184,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1184,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1184,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1184,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1184,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question12",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1239,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1239,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1239,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1239,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1239,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1239,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question13",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1292,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1292,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1292,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1292,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1292,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1292,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question14",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1347,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1347,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1347,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1347,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1347,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1347,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question15",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1400,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1400,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1400,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1400,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1400,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1400,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question16",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1456,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1456,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1456,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1456,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1456,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1456,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question17",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1507,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1507,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1507,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1507,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1507,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1507,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question18",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1563,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1563,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1563,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1563,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1563,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1563,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question19",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1616,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1616,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1616,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1616,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1616,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1616,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question20",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1671,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1671,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1671,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1671,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1671,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1671,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question21",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1724,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1724,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1724,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1724,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1724,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1724,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question22",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1780,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1780,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1780,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1780,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1780,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1780,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question23",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1832,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1832,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1832,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1832,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1832,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1832,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question24",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1888,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1888,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1888,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1888,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1888,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1888,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question25",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1941,
+					"Left": 149,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1941,
+							"Left": 149,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1941,
+							"Left": 203,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1941,
+							"Left": 257,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1941,
+							"Left": 311,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1941,
+							"Left": 365,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question26",
+					"Width": 266,
+					"Height": 40,
+					"Top": 642,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 642,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 642,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 642,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 642,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 642,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question27",
+					"Width": 266,
+					"Height": 40,
+					"Top": 698,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 698,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 698,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 698,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 698,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 698,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question28",
+					"Width": 266,
+					"Height": 40,
+					"Top": 750,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 750,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 750,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 750,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 750,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 750,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question29",
+					"Width": 266,
+					"Height": 40,
+					"Top": 806,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 806,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 806,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 806,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 806,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 806,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question30",
+					"Width": 266,
+					"Height": 40,
+					"Top": 859,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 859,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 859,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 859,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 859,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 859,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question31",
+					"Width": 266,
+					"Height": 40,
+					"Top": 914,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 914,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 914,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 914,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 914,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 914,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question32",
+					"Width": 266,
+					"Height": 40,
+					"Top": 967,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 967,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 967,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 967,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 967,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 967,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question33",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1023,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1023,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1023,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1023,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1023,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1023,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question34",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1076,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1076,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1076,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1076,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1076,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1076,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question35",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1132,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1132,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1132,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1132,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1132,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1132,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question36",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1185,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1185,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1185,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1185,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1185,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1185,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question37",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1240,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1240,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1240,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1240,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1240,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1240,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question38",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1293,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1293,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1293,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1293,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1293,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1293,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question39",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1349,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1349,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1349,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1349,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1349,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1349,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question40",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1401,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1401,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1401,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1401,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1401,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1401,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question41",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1457,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1457,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1457,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1457,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1457,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1457,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question42",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1508,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1508,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1508,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1508,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1508,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1508,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question43",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1564,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1564,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1564,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1564,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1564,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1564,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question44",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1617,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1617,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1617,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1617,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1617,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1617,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question45",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1672,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1672,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1672,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1672,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1672,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1672,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question46",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1725,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1725,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1725,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1725,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1725,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1725,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question47",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1781,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1781,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1781,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1781,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1781,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1781,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question48",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1833,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1833,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1833,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1833,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1833,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1833,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question49",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1889,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1889,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1889,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1889,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1889,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1889,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question50",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1942,
+					"Left": 560,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1942,
+							"Left": 560,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1942,
+							"Left": 614,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1942,
+							"Left": 668,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1942,
+							"Left": 722,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1942,
+							"Left": 776,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question51",
+					"Width": 266,
+					"Height": 40,
+					"Top": 642,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 642,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 642,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 642,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 642,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 642,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question52",
+					"Width": 266,
+					"Height": 40,
+					"Top": 698,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 698,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 698,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 698,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 698,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 698,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question53",
+					"Width": 266,
+					"Height": 40,
+					"Top": 750,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 750,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 750,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 750,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 750,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 750,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question54",
+					"Width": 266,
+					"Height": 40,
+					"Top": 806,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 806,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 806,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 806,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 806,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 806,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question55",
+					"Width": 266,
+					"Height": 40,
+					"Top": 859,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 859,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 859,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 859,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 859,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 859,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question56",
+					"Width": 266,
+					"Height": 40,
+					"Top": 914,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 914,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 914,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 914,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 914,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 914,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question57",
+					"Width": 266,
+					"Height": 40,
+					"Top": 967,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 967,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 967,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 967,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 967,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 967,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question58",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1023,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1023,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1023,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1023,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1023,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1023,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question59",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1076,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1076,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1076,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1076,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1076,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1076,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question60",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1132,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1132,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1132,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1132,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1132,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1132,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question61",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1185,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1185,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1185,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1185,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1185,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1185,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question62",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1240,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1240,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1240,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1240,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1240,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1240,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question63",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1293,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1293,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1293,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1293,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1293,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1293,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question64",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1349,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1349,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1349,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1349,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1349,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1349,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question65",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1401,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1401,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1401,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1401,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1401,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1401,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question66",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1457,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1457,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1457,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1457,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1457,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1457,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question67",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1508,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1508,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1508,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1508,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1508,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1508,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question68",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1564,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1564,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1564,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1564,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1564,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1564,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question69",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1617,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1617,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1617,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1617,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1617,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1617,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question70",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1672,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1672,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1672,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1672,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1672,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1672,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question71",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1725,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1725,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1725,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1725,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1725,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1725,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question72",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1781,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1781,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1781,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1781,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1781,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1781,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question73",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1833,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1833,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1833,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1833,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1833,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1833,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question74",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1889,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1889,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1889,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1889,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1889,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1889,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question75",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1942,
+					"Left": 970,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1942,
+							"Left": 970,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1942,
+							"Left": 1024,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1942,
+							"Left": 1078,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1942,
+							"Left": 1132,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1942,
+							"Left": 1185,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question76",
+					"Width": 266,
+					"Height": 40,
+					"Top": 642,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 642,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 642,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 642,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 642,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 642,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question77",
+					"Width": 266,
+					"Height": 40,
+					"Top": 698,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 698,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 698,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 698,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 698,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 698,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question78",
+					"Width": 266,
+					"Height": 40,
+					"Top": 750,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 750,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 750,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 750,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 750,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 750,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question79",
+					"Width": 266,
+					"Height": 40,
+					"Top": 806,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 806,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 806,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 806,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 806,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 806,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question80",
+					"Width": 266,
+					"Height": 40,
+					"Top": 859,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 859,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 859,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 859,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 859,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 859,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question81",
+					"Width": 266,
+					"Height": 40,
+					"Top": 914,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 914,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 914,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 914,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 914,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 914,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question82",
+					"Width": 266,
+					"Height": 40,
+					"Top": 967,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 967,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 967,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 967,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 967,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 967,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question83",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1023,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1023,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1023,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1023,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1023,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1023,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question84",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1076,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1076,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1076,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1076,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1076,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1076,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question85",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1132,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1132,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1132,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1132,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1132,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1132,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question86",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1185,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1185,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1185,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1185,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1185,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1185,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question87",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1240,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1240,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1240,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1240,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1240,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1240,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question88",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1293,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1293,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1293,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1293,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1293,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1293,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question89",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1349,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1349,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1349,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1349,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1349,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1349,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question90",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1401,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1401,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1401,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1401,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1401,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1401,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question91",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1457,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1457,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1457,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1457,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1457,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1457,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question92",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1508,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1508,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1508,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1508,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1508,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1508,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question93",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1564,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1564,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1564,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1564,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1564,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1564,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question94",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1617,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1617,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1617,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1617,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1617,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1617,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question95",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1672,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1672,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1672,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1672,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1672,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1672,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question96",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1725,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1725,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1725,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1725,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1725,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1725,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question97",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1781,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1781,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1781,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1781,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1781,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1781,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question98",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1833,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1833,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1833,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1833,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1833,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1833,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question99",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1889,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1889,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1889,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1889,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1889,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1889,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				},
+				{
+					"Type": "ChoiceBox",
+					"AlignedHorizontally": false,
+					"AlignedVertically": false,
+					"Name": "Question100",
+					"Width": 266,
+					"Height": 40,
+					"Top": 1942,
+					"Left": 1375,
+					"BubbleHeight": 40,
+					"BubbleWidth": 50,
+					"Bubbles": [
+						{
+							"Value": "A",
+							"Top": 1942,
+							"Left": 1375,
+							"IsValid": true
+						},
+						{
+							"Value": "B",
+							"Top": 1942,
+							"Left": 1429,
+							"IsValid": true
+						},
+						{
+							"Value": "C",
+							"Top": 1942,
+							"Left": 1482,
+							"IsValid": true
+						},
+						{
+							"Value": "D",
+							"Top": 1942,
+							"Left": 1536,
+							"IsValid": true
+						},
+						{
+							"Value": "E",
+							"Top": 1942,
+							"Left": 1590,
+							"IsValid": true
+						}
+					],
+					"Multiselect": false,
+					"Orientation": "Horizontal"
+				}
+			]
+		}
+	],
+	"TemplateId": null,
+	"FinalizationComplete": false
+}
