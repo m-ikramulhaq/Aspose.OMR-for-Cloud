@@ -4,6 +4,18 @@
 
 This repository contains [Examples](Examples) for [Aspose.OMR for Cloud](https://www.aspose.cloud/products/omr/cloud).
 
+<p align="center">
+  <a href="https://github.com/aspose-omr/Aspose.OMR-for-Cloud/archive/master.zip">
+    <img src="http://i.imgur.com/hwNhrGZ.png" />
+  </a>
+</p>
+
+
+Directory | Description
+--------- | -----------
+[Examples](Examples)  | A .NET example that helps you learn the product features
+
+
 ## Resources
 
 + **Website:** [www.aspose.com](https://www.aspose.com/)
