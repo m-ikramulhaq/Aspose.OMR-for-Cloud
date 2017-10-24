@@ -13,7 +13,7 @@ This repository contains [Examples](Examples) for [Aspose.OMR for Cloud](https:/
 
 Directory | Description
 --------- | -----------
-[Examples](Examples)  | A .NET example that helps you learn the product features
+[Examples](Examples)  | A .NET example that helps you learn the product features.
 
 
 ## Resources
