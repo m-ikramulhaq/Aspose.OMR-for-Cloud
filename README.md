@@ -14,7 +14,7 @@ This repository contains [Examples](Examples) for [Aspose.OMR for Cloud](https:/
 Directory | Description
 --------- | -----------
 [Examples](Examples)  | A .NET example that helps you learn the product features.
-
+[Aspose.OMR.Client](OMRclient)  | An open source .NET application with GUI that helps you work with OMR templates.
 
 ## Resources
 
