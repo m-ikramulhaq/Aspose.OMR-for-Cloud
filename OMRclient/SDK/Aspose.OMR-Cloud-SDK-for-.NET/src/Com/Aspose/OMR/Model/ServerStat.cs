@@ -15,19 +15,29 @@
  */
 using System;
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Com.Aspose.OMR.Model
 {
     public class ServerStat
     {
-        public TimeSpan StorageDownloadTime { get; set; }
+        private TimeSpan storageDownloadTime;
+        private TimeSpan omrFunctionCallTime;
 
-        public TimeSpan OmrFunctionCallTime { get; set; }
+        public TimeSpan StorageDownloadTime
+        {
+            get { return this.storageDownloadTime; }
+            set { this.storageDownloadTime = value; }
+        }
+
+        public TimeSpan OmrFunctionCallTime
+        {
+            get { return this.omrFunctionCallTime; }
+            set { this.omrFunctionCallTime = value; }
+        }
+
         public override string ToString()
         {
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("class OMRResponse {\n");
             sb.Append("  StorageDownloadTime: ").Append(StorageDownloadTime).Append("\n");
             sb.Append("  OmrFunctionCallTime: ").Append(OmrFunctionCallTime).Append("\n");

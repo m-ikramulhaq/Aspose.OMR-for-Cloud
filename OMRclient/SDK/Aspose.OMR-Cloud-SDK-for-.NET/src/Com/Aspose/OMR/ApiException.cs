@@ -15,22 +15,25 @@
  */
 using System;
 
-namespace Com.Aspose.OMR {
-  public class ApiException : Exception {
-    
-  	private int errorCode = 0;
+namespace Com.Aspose.OMR
+{
+    public class ApiException : Exception
+    {
 
-    public ApiException() {}
+        private int errorCode = 0;
 
-    public int ErrorCode { 
-    	get
-    	{
-    		return errorCode;
-    	}
+        public ApiException()
+        {
+        }
+
+        public int ErrorCode
+        {
+            get { return errorCode; }
+        }
+
+        public ApiException(int errorCode, string message) : base(message)
+        {
+            this.errorCode = errorCode;
+        }
     }
-
-    public ApiException(int errorCode, string message) : base(message) {
-    	this.errorCode = errorCode;
-    }
-  }
 }

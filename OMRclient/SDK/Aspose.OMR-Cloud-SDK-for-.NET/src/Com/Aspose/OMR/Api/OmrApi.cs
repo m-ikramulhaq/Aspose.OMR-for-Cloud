@@ -16,9 +16,10 @@
   using System;
   using System.Collections.Generic;
   using System.Text.RegularExpressions;
-  using Com.Aspose.OMR;
   using Com.Aspose.OMR.Model;
-  namespace Com.Aspose.OMR.Api {
+
+namespace Com.Aspose.OMR.Api
+{
     public class OmrApi
     {
         string basePath;
@@ -26,8 +27,8 @@
 
         public OmrApi(String apiKey, String appSid, String basePath)
         {
-            apiInvoker.apiKey = apiKey;
-            apiInvoker.appSid = appSid;
+            apiInvoker.ApiKey = apiKey;
+            apiInvoker.AppSid = appSid;
             this.basePath = basePath;
         }
 
@@ -58,16 +59,22 @@
         /// <param name="storage"></param>
         /// <param name="folder"></param>
         /// <returns></returns>
-        public OMRResponse PostRunOmrTask(string name, string actionName, OMRFunctionParam functionParam, string storage, string folder)
+        public OMRResponse PostRunOmrTask(string name, string actionName, OMRFunctionParam functionParam,
+            string storage, string folder)
         {
             // create path and map variables
-            var ResourcePath = "/omr/{name}/runOmrTask/?appSid={appSid}&amp;actionName={actionName}&amp;storage={storage}&amp;folder={folder}".Replace("{format}", "json");
-            ResourcePath = Regex.Replace(ResourcePath, "\\*", "").Replace("&amp;", "&").Replace("/?", "?").Replace("toFormat={toFormat}", "format={format}");
+            string ResourcePath =
+                "/omr/{name}/runOmrTask/?appSid={appSid}&amp;actionName={actionName}&amp;storage={storage}&amp;folder={folder}"
+                    .Replace("{format}", "json");
+            ResourcePath = Regex.Replace(ResourcePath, "\\*", "")
+                .Replace("&amp;", "&")
+                .Replace("/?", "?")
+                .Replace("toFormat={toFormat}", "format={format}");
 
             // query params
-            var queryParams = new Dictionary<String, String>();
-            var headerParams = new Dictionary<String, String>();
-            var formParams = new Dictionary<String, object>();
+            Dictionary<string, string> queryParams = new Dictionary<String, String>();
+            Dictionary<string, string> headerParams = new Dictionary<String, String>();
+            Dictionary<string, object> formParams = new Dictionary<String, object>();
 
             // verify required params are set
             if (name == null)
@@ -110,15 +117,17 @@
             {
                 if (typeof(OMRResponse) == typeof(ResponseMessage))
                 {
-                    var response = apiInvoker.invokeBinaryAPI(basePath, ResourcePath, "POST", queryParams, functionParam, headerParams, formParams);
-                    return (OMRResponse)ApiInvoker.deserialize(response, typeof(OMRResponse));
+                    byte[] response = apiInvoker.invokeBinaryAPI(basePath, ResourcePath, "POST", queryParams,
+                        functionParam, headerParams, formParams);
+                    return (OMRResponse) ApiInvoker.deserialize(response, typeof(OMRResponse));
                 }
                 else
                 {
-                    var response = apiInvoker.invokeAPI(basePath, ResourcePath, "POST", queryParams, functionParam, headerParams, formParams);
+                    string response = apiInvoker.invokeAPI(basePath, ResourcePath, "POST", queryParams, functionParam,
+                        headerParams, formParams);
                     if (response != null)
                     {
-                        return (OMRResponse)ApiInvoker.deserialize(response, typeof(OMRResponse));
+                        return (OMRResponse) ApiInvoker.deserialize(response, typeof(OMRResponse));
                     }
                     else
                     {
@@ -139,5 +148,5 @@
             }
         }
 
-    }     
     }
+}

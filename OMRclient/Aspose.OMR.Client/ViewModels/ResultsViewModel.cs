@@ -451,7 +451,9 @@ namespace Aspose.OMR.Client.ViewModels
             if (itemToProcess.IsProcessed)
             {
                 // ask user confirmation
-                if (!DialogManager.ShowConfirmDialog($"Image {itemToProcess.Title} was already recognized. Are you sure you want to run recognition again?"))
+                if (!DialogManager.ShowConfirmDialog(
+                    string.Format("Image {0} was already recognized. Are you sure you want to run recognition again?",
+                        itemToProcess.Title)))
                 {
                     // if no confirmation, clean up and return
                     itemToProcess.IsProcessing = false;

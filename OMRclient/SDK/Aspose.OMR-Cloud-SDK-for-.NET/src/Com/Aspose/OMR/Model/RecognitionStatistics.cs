@@ -13,25 +13,45 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
+
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Com.Aspose.OMR.Model
 {
     public class RecognitionStatistics
     {
-        public string Name { get; set; }
+        private string name;
+        private string[] taskMessages;
+        private string taskResult;
+        private double runSeconds;
 
-        public string[] TaskMessages { get; set; }
+        public string Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
+        }
 
-        public string TaskResult { get; set; }
+        public string[] TaskMessages
+        {
+            get { return this.taskMessages; }
+            set { this.taskMessages = value; }
+        }
 
-        public double RunSeconds { get; set; }
+        public string TaskResult
+        {
+            get { return this.taskResult; }
+            set { this.taskResult = value; }
+        }
+
+        public double RunSeconds
+        {
+            get { return this.runSeconds; }
+            set { this.runSeconds = value; }
+        }
+
         public override string ToString()
         {
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("class FilesInfo {\n");
             sb.Append("  Name: ").Append(Name).Append("\n");
             sb.Append("  TaskMessages: ").Append(TaskMessages).Append("\n");

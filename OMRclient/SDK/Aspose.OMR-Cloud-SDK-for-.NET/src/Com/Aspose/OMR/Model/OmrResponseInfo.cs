@@ -13,25 +13,45 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
+
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Com.Aspose.OMR.Model
 {
     public class OmrResponseInfo
     {
-        public string ResponseVersion { get; set; }
+        private string responseVersion;
+        private int processedTasksCount;
+        private int successfulTasksCount;
+        private OMRResponseDetails details;
 
-        public int ProcessedTasksCount { get; set; }
+        public string ResponseVersion
+        {
+            get { return this.responseVersion; }
+            set { this.responseVersion = value; }
+        }
 
-        public int SuccessfulTasksCount { get; set; }
+        public int ProcessedTasksCount
+        {
+            get { return this.processedTasksCount; }
+            set { this.processedTasksCount = value; }
+        }
 
-        public OMRResponseDetails Details { get; set; }
+        public int SuccessfulTasksCount
+        {
+            get { return this.successfulTasksCount; }
+            set { this.successfulTasksCount = value; }
+        }
+
+        public OMRResponseDetails Details
+        {
+            get { return this.details; }
+            set { this.details = value; }
+        }
+
         public override string ToString()
         {
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("class FilesInfo {\n");
             sb.Append("  ResponseVersion: ").Append(ResponseVersion).Append("\n");
             sb.Append("  ProcessedTasksCount: ").Append(ProcessedTasksCount).Append("\n");

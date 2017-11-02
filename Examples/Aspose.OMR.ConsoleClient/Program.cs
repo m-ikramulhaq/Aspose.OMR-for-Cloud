@@ -38,30 +38,31 @@ namespace Aspose.OMR.ConsoleClient
         /// <summary>
         /// Path to test data
         /// </summary>
-        static string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"Data\");
+        static string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"TestExamples\");
 
         static void Main(string[] args)
         {
             // 0. Create template (using Aspose.OMR.Client)
             // 1. Run template correction
-            OMRResponse response = RunOmrTask("CorrectTemplate", "original.jpg", File.ReadAllText(path + "100qSimple.omr"));
+            OMRResponse response = RunOmrTask("CorrectTemplate", "AsposeTestExample.jpg", File.ReadAllText(path + "AsposeTestExample.omr"));
 
             // get template id, which will be used during finalization and recognition
             string templateId = response.Payload.Result.TemplateId;
 
             // save corrected template data to file
-            File.WriteAllBytes(path + "CorrectedTemplate.bin", response.Payload.Result.ResponseFiles[0].Data);
+            File.WriteAllBytes(path + "AsposeTestCorrectedTemplate.omr", response.Payload.Result.ResponseFiles[0].Data);
 
             // 2. Run template Finalization
-            RunOmrTask("FinalizeTemplate", "CorrectedTemplate.bin", templateId);
+            RunOmrTask("FinalizeTemplate", "AsposeTestCorrectedTemplate.omr", templateId);
 
             // 3. Recognize image
-            OMRResponse recognitionResponse = RunOmrTask("RecognizeImage", "photo.jpg", templateId);
+            OMRResponse recognitionResponse = RunOmrTask("RecognizeImage", "1.jpg", templateId);
 
             // get recognition results as string
             string recognitionResults = Encoding.UTF8.GetString(recognitionResponse.Payload.Result.ResponseFiles[0].Data);
 
             Console.WriteLine(recognitionResults);
+            Console.WriteLine("DONE");
             Console.ReadLine();
         }
 

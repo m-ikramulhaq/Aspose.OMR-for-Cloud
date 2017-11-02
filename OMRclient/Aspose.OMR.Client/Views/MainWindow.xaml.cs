@@ -13,6 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+using System;
+
 namespace Aspose.OMR.Client.Views
 {
     using System.Windows;
@@ -40,8 +43,15 @@ namespace Aspose.OMR.Client.Views
                 if (DialogManager.ShowConfirmDialog("During Your session " + filesCount +
                                                     " files were uploaded for recognition to Aspose.Cloud Storage. Would like to delete them?"))
                 {
-                    CloudStorageManager.CleanUpStorage();
-                    e.Cancel = true;
+                    try
+                    {
+                        CloudStorageManager.CleanUpStorage();
+                        e.Cancel = true;
+                    }
+                    catch
+                    {
+                        DialogManager.ShowErrorDialog("An error occured while attempting to delete files from storage. Please visit Cloud Dashboard to manage storage files.");
+                    }
                 }
             }
         }

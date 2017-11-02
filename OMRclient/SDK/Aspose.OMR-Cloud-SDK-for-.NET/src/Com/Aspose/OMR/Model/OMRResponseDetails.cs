@@ -13,27 +13,45 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
+
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
-namespace Com.Aspose.OMR.Model {
-  public class OMRResponseDetails
+namespace Com.Aspose.OMR.Model
+{
+    public class OMRResponseDetails
     {
-        public string[] TaskMessages { get; set; }
-        public string TaskResult { get; set; }
-        public RecognitionStatistics[] RecognitionStatistics { get; set; }
+        private string[] taskMessages;
+        private string taskResult;
+        private RecognitionStatistics[] recognitionStatistics;
 
-        public override string ToString()  {
-      var sb = new StringBuilder();
-      sb.Append("class FilesInfo {\n");
+        public string[] TaskMessages
+        {
+            get { return this.taskMessages; }
+            set { this.taskMessages = value; }
+        }
+
+        public string TaskResult
+        {
+            get { return this.taskResult; }
+            set { this.taskResult = value; }
+        }
+
+        public RecognitionStatistics[] RecognitionStatistics
+        {
+            get { return this.recognitionStatistics; }
+            set { this.recognitionStatistics = value; }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("class FilesInfo {\n");
             sb.Append("  FileInfo: ").Append(TaskMessages).Append("\n");
             sb.Append("  TaskResult: ").Append(TaskResult).Append("\n");
             sb.Append("  RecognitionStatistics: ").Append(RecognitionStatistics).Append("\n");
 
             sb.Append("}\n");
-      return sb.ToString();
+            return sb.ToString();
+        }
     }
-  }
-  }
+}

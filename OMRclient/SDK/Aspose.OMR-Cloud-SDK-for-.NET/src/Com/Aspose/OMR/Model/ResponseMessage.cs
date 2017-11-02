@@ -21,29 +21,52 @@
  */
 using System;
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Com.Aspose.OMR.Model
 {
     public class ResponseMessage
     {
+        private int code;
+        private string status;
+        private string message;
+        private byte[] responseStream;
+
         public ResponseMessage() { }
+
         public ResponseMessage(byte[] ResponseStream, int Code, String Status )
         {
             this.Code = Code;
             this.Status = Status;
             this.ResponseStream = ResponseStream;
         }
-        public int Code { get; set; }
-        public string Status { get; set; }
 
-        public string Message { get; set; }
-        public byte[] ResponseStream { get; set; }
+        public int Code
+        {
+            get { return this.code; }
+            set { this.code = value; }
+        }
+
+        public string Status
+        {
+            get { return this.status; }
+            set { this.status = value; }
+        }
+
+        public string Message
+        {
+            get { return this.message; }
+            set { this.message = value; }
+        }
+
+        public byte[] ResponseStream
+        {
+            get { return this.responseStream; }
+            set { this.responseStream = value; }
+        }
 
         public override string ToString()
         {
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("class ResponseMessage {\n");
             sb.Append("  Code: ").Append(Code).Append("\n");
             sb.Append("  Message: ").Append(Message).Append("\n");

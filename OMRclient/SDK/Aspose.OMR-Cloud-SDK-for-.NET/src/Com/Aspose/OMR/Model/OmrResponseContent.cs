@@ -13,24 +13,45 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
+
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Com.Aspose.OMR.Model
 {
     public class OmrResponseContent
     {
-        public string TemplateId { get; set; }
-        public double ExecutionTime { get; set; }
+        private string templateId;
+        private double executionTime;
+        private FileInfo[] responseFiles;
+        private OmrResponseInfo info;
 
-        public FileInfo[] ResponseFiles { get; set; }
+        public string TemplateId
+        {
+            get { return this.templateId; }
+            set { this.templateId = value; }
+        }
 
-        public OmrResponseInfo Info { get; set; }
+        public double ExecutionTime
+        {
+            get { return this.executionTime; }
+            set { this.executionTime = value; }
+        }
+
+        public FileInfo[] ResponseFiles
+        {
+            get { return this.responseFiles; }
+            set { this.responseFiles = value; }
+        }
+
+        public OmrResponseInfo Info
+        {
+            get { return this.info; }
+            set { this.info = value; }
+        }
+
         public override string ToString()
         {
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("class Payload {\n");
             sb.Append("  CompletedTaskId: ").Append(TemplateId).Append("\n");
             sb.Append("  ExecutionTime: ").Append(ExecutionTime).Append("\n");

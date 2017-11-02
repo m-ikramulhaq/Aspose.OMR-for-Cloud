@@ -13,37 +13,69 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
+
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
-namespace Com.Aspose.OMR.Model {
-  public class OMRResponse {
-        public string Code { get; set; }
+namespace Com.Aspose.OMR.Model
+{
+    public class OMRResponse
+    {
+        private string code;
+        private string status;
+        private int errorCode;
+        private string errorText;
+        private Payload payload;
+        private ServerStat serverStat;
 
-        public string Status { get; set; }
+        public string Code
+        {
+            get { return this.code; }
+            set { this.code = value; }
+        }
 
-        public int ErrorCode { get; set; }
+        public string Status
+        {
+            get { return this.status; }
+            set { this.status = value; }
+        }
 
-        public string ErrorText { get; set; }
+        public int ErrorCode
+        {
+            get { return this.errorCode; }
+            set { this.errorCode = value; }
+        }
+
+        public string ErrorText
+        {
+            get { return this.errorText; }
+            set { this.errorText = value; }
+        }
 
 
-        public Payload Payload { get; set; }
+        public Payload Payload
+        {
+            get { return this.payload; }
+            set { this.payload = value; }
+        }
 
-        public ServerStat ServerStat { get; set; }
+        public ServerStat ServerStat
+        {
+            get { return this.serverStat; }
+            set { this.serverStat = value; }
+        }
 
-        public override string ToString()  {
-      var sb = new StringBuilder();
-      sb.Append("class OMRResponse {\n");
-      sb.Append("  Code: ").Append(Code).Append("\n");
-      sb.Append("  Status: ").Append(Status).Append("\n");
-      sb.Append("  ErrorCode: ").Append(ErrorCode).Append("\n");
-      sb.Append("  ErrorText: ").Append(ErrorText).Append("\n");
-      sb.Append("  Payload: ").Append(Payload).Append("\n");
-      sb.Append("  ServerStat: ").Append(ServerStat).Append("\n");
-      sb.Append("}\n");
-      return sb.ToString();
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("class OMRResponse {\n");
+            sb.Append("  Code: ").Append(Code).Append("\n");
+            sb.Append("  Status: ").Append(Status).Append("\n");
+            sb.Append("  ErrorCode: ").Append(ErrorCode).Append("\n");
+            sb.Append("  ErrorText: ").Append(ErrorText).Append("\n");
+            sb.Append("  Payload: ").Append(Payload).Append("\n");
+            sb.Append("  ServerStat: ").Append(ServerStat).Append("\n");
+            sb.Append("}\n");
+            return sb.ToString();
+        }
     }
-  }
-  }
+}

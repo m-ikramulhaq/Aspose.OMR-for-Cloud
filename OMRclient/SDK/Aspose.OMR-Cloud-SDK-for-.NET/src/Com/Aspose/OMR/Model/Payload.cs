@@ -13,21 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
-using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
-namespace Com.Aspose.OMR.Model {
-  public class Payload {
-        public OmrResponseContent Result { get; set; }
-        
-        public override string ToString()  {
-      var sb = new StringBuilder();
-      sb.Append("class Payload {\n");
+using System.Text;
+
+namespace Com.Aspose.OMR.Model
+{
+    public class Payload
+    {
+        private OmrResponseContent result;
+
+        public OmrResponseContent Result
+        {
+            get { return this.result; }
+            set { this.result = value; }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("class Payload {\n");
             sb.Append("  Result: ").Append(Result).Append("\n");
             sb.Append("}\n");
-      return sb.ToString();
+            return sb.ToString();
+        }
     }
-  }
-  }
+}

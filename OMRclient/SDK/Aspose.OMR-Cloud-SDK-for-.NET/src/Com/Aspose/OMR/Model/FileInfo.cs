@@ -13,30 +13,44 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
+
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Com.Aspose.OMR.Model
 {
     public class FileInfo
     {
-        public string Name { get; set; }
+        private string name;
+        private long size;
+        private byte[] data;
+
+        public string Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
+        }
 
         /// <summary>
         /// Gets or sets file's size
         /// </summary>
-        public long Size { get; set; }
+        public long Size
+        {
+            get { return this.size; }
+            set { this.size = value; }
+        }
 
         /// <summary>
         /// Gets or sets file's data
         /// </summary>
-        public byte[] Data { get; set; }
+        public byte[] Data
+        {
+            get { return this.data; }
+            set { this.data = value; }
+        }
 
         public override string ToString()
         {
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("class FilesInfo {\n");
             sb.Append("  Name: ").Append(Name).Append("\n");
             sb.Append("  Size: ").Append(Size).Append("\n");

@@ -4,7 +4,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:controls="clr-namespace:Aspose.OMR.Client.Controls"
-        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
         mc:Ignorable="d"
         Title="CustomMappingView" Height="450" Width="350" 
         WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
@@ -35,9 +34,6 @@
 
         <controls:NumericTextBox Grid.Row="1" Grid.Column="1" Text="{Binding CustomMappingItemsCount, UpdateSourceTrigger=LostFocus}" Width="75"
                                  AcceptsFloat="False" HorizontalAlignment="Center" VerticalAlignment="Center" >
-            <i:Interaction.Behaviors>
-                <controls:TextBoxEnterKeyUpdateBehavior/>
-            </i:Interaction.Behaviors>
         </controls:NumericTextBox>
 
         <DataGrid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding MappingValues}" HorizontalAlignment="Center" Margin="5"

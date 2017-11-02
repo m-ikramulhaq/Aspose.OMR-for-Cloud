@@ -13,22 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-using System;
+
 using System.Text;
-using System.Collections;
-using System.Collections.Generic;
 
 namespace Com.Aspose.OMR.Model
 {
     public class OMRFunctionParam
     {
-        public string FunctionParam { get; set; }
+        private string functionParam;
+        private string additionalParam;
 
-        public string AdditionalParam { get; set; }
+        public string FunctionParam
+        {
+            get { return this.functionParam; }
+            set { this.functionParam = value; }
+        }
+
+        public string AdditionalParam
+        {
+            get { return this.additionalParam; }
+            set { this.additionalParam = value; }
+        }
 
         public override string ToString()
         {
-            var sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             sb.Append("class OMRResponse {\n");
             sb.Append("  Code: ").Append(FunctionParam).Append("\n");
             sb.Append("  Status: ").Append(AdditionalParam).Append("\n");
